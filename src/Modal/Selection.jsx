@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from "react";
-
 function Selection({ selectedProducts = [], updateSelectedCount, productAmounts, onProductAmountChange }) {
   const handleRemove = (productId) => {
     if (!selectedProducts) return;
